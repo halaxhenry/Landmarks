@@ -115,9 +115,6 @@
 		AA73967827031DCD00BFFC1C /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
-				AA7396EF2709DB7C00BFFC1C /* PageControl.swift */,
-				AA7396ED2709CE3D00BFFC1C /* PageView.swift */,
-				AA7396EB2709CBF000BFFC1C /* FeatureCard.swift */,
 				AA73967927031DCD00BFFC1C /* LandmarksApp.swift */,
 				AA7396932703469200BFFC1C /* Resources */,
 				AA7396922703466D00BFFC1C /* Model */,
@@ -139,17 +136,14 @@
 		AA7396912703464200BFFC1C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AA73967B27031DCD00BFFC1C /* ContentView.swift */,
+				AA7396F12709E08900BFFC1C /* Categories */,
 				AA7396E82706A03A00BFFC1C /* PageView */,
 				AA7396C22705894900BFFC1C /* Profiles */,
 				AA7396AF27055ACD00BFFC1C /* Hikes */,
-				AA73967B27031DCD00BFFC1C /* ContentView.swift */,
 				AA7396AA2704646700BFFC1C /* Badges */,
 				AA73969D27041AC000BFFC1C /* Helpers */,
 				AA73969C27041AA500BFFC1C /* Landmarks */,
-				AA7396B82705646200BFFC1C /* CategoryHome.swift */,
-				AA7396BA2705679600BFFC1C /* CategoryRow.swift */,
-				AA7396BC27056B1400BFFC1C /* CategoryItem.swift */,
-				AA7396C927059AD600BFFC1C /* ProfileEditor.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -221,6 +215,7 @@
 		AA7396C22705894900BFFC1C /* Profiles */ = {
 			isa = PBXGroup;
 			children = (
+				AA7396C927059AD600BFFC1C /* ProfileEditor.swift */,
 				AA7396C32705896C00BFFC1C /* ProfileHost.swift */,
 				AA7396C5270589D700BFFC1C /* ProfileSummary.swift */,
 			);
@@ -230,9 +225,22 @@
 		AA7396E82706A03A00BFFC1C /* PageView */ = {
 			isa = PBXGroup;
 			children = (
+				AA7396EF2709DB7C00BFFC1C /* PageControl.swift */,
+				AA7396ED2709CE3D00BFFC1C /* PageView.swift */,
+				AA7396EB2709CBF000BFFC1C /* FeatureCard.swift */,
 				AA7396E92706A05A00BFFC1C /* PageViewController.swift */,
 			);
 			path = PageView;
+			sourceTree = "<group>";
+		};
+		AA7396F12709E08900BFFC1C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				AA7396B82705646200BFFC1C /* CategoryHome.swift */,
+				AA7396BA2705679600BFFC1C /* CategoryRow.swift */,
+				AA7396BC27056B1400BFFC1C /* CategoryItem.swift */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
